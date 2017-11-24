@@ -145,5 +145,38 @@
   <tabstop>buttonAbbrechen</tabstop>
  </tabstops>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>buttonOk</sender>
+   <signal>clicked()</signal>
+   <receiver>HauptDialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>482</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>259</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonAbbrechen</sender>
+   <signal>clicked()</signal>
+   <receiver>HauptDialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>453</x>
+     <y>482</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>259</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
